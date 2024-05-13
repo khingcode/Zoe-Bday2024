@@ -1,0 +1,138 @@
+
+@font-face {
+  font-family: 'CoffeeCake';
+  src: url('path/to/font/CoffeCake.ttf') format('truetype'),
+       url('path/to/font/CoffeCake.woff') format('woff'),
+       url('path/to/font/CoffeCake.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'CoffeCake', sans-serif;
+    /*background-color:#293030;*/
+    background-image: url('../images/backgroundtest.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  header {
+    background-color: #94bff199; /* coral header background */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    height: 55px;
+  }
+  header nav ul{
+    float: left;
+    padding: 0px 20px;
+  }
+  header nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+  }
+  header nav ul li a{ /*Edits the text of the list */
+    color: black;
+    display: block;
+    font-size: 22px;
+    padding: 16px 14px;
+    text-decoration: none;
+  }
+  
+  header nav ul li ul{
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: #94bff199; /* coral header background */
+    padding: 10px;
+    border-radius: 0px 0px 6px 6px;
+  } 
+  header nav ul li:hover ul{
+    display: block;
+  } 
+  header nav ul li ul li {
+    width: 200px;
+    border-radius: 4px;
+  }
+  header nav ul li ul li a{
+    text-align: left;
+    padding: 8px 13px;
+  }
+  header nav ul li ul li a:hover{
+    background-color: aliceblue;
+
+  }  
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    font-size: 26px;
+    color: rgb(11, 68, 106);
+  }
+  .main-content {
+    background-color: #e1f9fba4;
+    border: rgb(112, 177, 242) 4px solid;
+    color: rgb(11, 68, 106);;
+    margin: 10px 250px 10px 250px; /*up right down left*/
+    padding: 100px 150px 100px 150px;
+    text-align: center;
+  }
+  
+  .main-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .main-content p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .gift-ideas {
+    background-color: #95a7f858; /* coral gift ideas background */
+    padding: 50px 0;
+    text-align: center;
+    color: rgb(11, 68, 106);
+  }
+  
+  .gift-ideas h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .gift-ideas ul {
+    list-style: none;
+  }
+  
+  .gift-ideas li {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .gift-ideas li i {
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #6bb0ff95; /* coral footer background */
+    color: rgb(11, 68, 106);
+    text-align: left;
+    padding: 15px;
+  }

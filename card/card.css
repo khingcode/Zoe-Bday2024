@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    background-color: #073b4c;
+   }
+   
+   .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   h2 {
+    animation: 1s blink linear infinite;
+    display: flex;
+    justify-content: center;
+   }
+   
+   .birthdayCard {
+    margin-top: 45px;
+    position: relative;
+    width: 700px;
+    height: 2555px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(2500px);
+    transition: 1s;
+  }
+   
+  .cardFront {
+    position: relative;
+    background-color: #fff;
+    width: 700px;
+    height: 2555px;
+    overflow: hidden;
+    transform-origin: left;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 30px 0 50px rgba(0,0,0,0.4);
+    transition: .6s;
+    text-align: center;
+    
+  }
+   .happy {
+     font-family: 'CoffeCake', sans-serif;
+     text-align: center;
+     margin:80px 100px 0px 100px;
+     padding: 10px; 
+     font-size: 80px;
+     background-image: linear-gradient(120deg, #57bae8 0%, #85dbfdab 100%);
+     transition: .1s;
+   } 
+   .happy1{
+    font-size: 40px
+   }
+
+   .cardInside {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid rgb(50, 148, 205);
+    width: 700px;
+    height: 2555px;
+    z-index:-1;
+    left:0;
+    top:0;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
+  }
+   
+   .cardInside p {
+     font-family: "CoffeCake", sans-serif;
+     margin: 17px 40px 1px 40px;
+     color: #333;
+     text-align: justify;
+     line-height: 25px;
+     font-size: 22px;
+   }
+   .cardInside .back{
+    font-family: "CoffeCake", sans-serif;
+   }
+   
+   .back {
+     color: #333;
+     text-align: center;
+     margin:30px 100px 0px 100px;
+     padding: 10px; 
+     outline-color:#333;
+     outline-style: dotted;
+   }
+   .shiji,.khing,.soph {
+     margin: 40px 40px 1px 40px;
+     color: #333;
+     text-align: center;
+     line-height: 25px;
+   }
+   
+   .birthdayCard.clicked {
+       transform: perspective(2500px) rotate(5deg);
+       box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
+   }
+   
+   .birthdayCard.clicked .cardFront {
+     transform: rotateY(-160deg); 
+   }
+   
+   .birthdayCard.clicked .happy {
+     visibility:hidden; 
+   }
+   
+  
