@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-image{
+    background-image: url('/images/devojar\ background\ \(2\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* width:200px; */
+    height: 100vh; 
+}

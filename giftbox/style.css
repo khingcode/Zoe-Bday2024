@@ -113,7 +113,7 @@ body{
     text-transform: capitalize;
     text-align: center;
     z-index: -1;
-    left: 10px;
+    left: 50px;
     color: #fff;
     text-shadow: 0 0 10px #020202;
 }
@@ -228,11 +228,14 @@ body{
     text-transform: capitalize;
     text-align: center;
     z-index: -1;
-    left: 10px;
+    left: 5px;
+    bottom: 10px;
     color: #fff;
     text-shadow: 0 0 10px #020202;
 }
-
+.wishes2 img{
+    width: 45%;
+}
 .wishes2 a {
     color: inherit;
     text-decoration: none;
