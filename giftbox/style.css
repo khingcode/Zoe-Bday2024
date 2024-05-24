@@ -17,6 +17,7 @@ body{
     min-height: 100vh;
     background-color: #41C9E2;
     overflow: hidden;
+    animation: transitionIn 1s;
 }
 .giftcontainer {
     bottom: 350px;
@@ -355,4 +356,15 @@ body{
 .wishes3 a {
     color: inherit;
     text-decoration: none;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(20);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }

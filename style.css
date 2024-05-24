@@ -16,7 +16,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95)), url(./images/zoe\ mainp\ age.png);
+    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95)), url(zoe\ mainp\ age.png);
     background-size: cover;
     background-position: center;
     animation: transitionIn 1s;
@@ -55,7 +55,7 @@
     font-size: 15px;
 }
 .hide-gradient .banner {
-    background-image: url(/images/zoe\ mainp\ age.png);
+    background-image: url(zoe\ mainp\ age.png);
     align-items: center;
     justify-content: center;
     height: 100vh;

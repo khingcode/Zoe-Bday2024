@@ -1,3 +1,4 @@
+
 .popup .overlay {
     position: fixed;
     top: 0px;
@@ -79,7 +80,9 @@
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    
+}
+.popup1 .content p{
+    font-size: 20px;
 }
 
 .popup1 .close-btn {
@@ -130,7 +133,7 @@
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
-    width: 450px;
+    width: 650px;
     height: 220px;
     z-index: 2;
     text-align: center;
